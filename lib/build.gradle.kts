@@ -25,5 +25,4 @@ android {
 
 dependencies {
     implementation(project(":lib_resources"))
-    implementation(libs.androidx.appcompat)
 }

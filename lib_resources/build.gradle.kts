@@ -21,3 +21,8 @@ android {
         jvmTarget = "17"
     }
 }
+
+dependencies {
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.fragment)
+}
