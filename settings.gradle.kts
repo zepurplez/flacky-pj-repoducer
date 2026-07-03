@@ -20,6 +20,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "My Application"
-include(":app")
 include(":lib")
 include(":lib_resources")
+include(":lib_resources2")

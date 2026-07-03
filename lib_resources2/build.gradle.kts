@@ -1,11 +1,10 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.dependency.analysis)
 }
 
 android {
-    namespace = "com.example.lib"
+    namespace = "com.example.lib_resources2"
     compileSdk {
         version = release(36)
     }
@@ -18,10 +17,4 @@ android {
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
     }
-}
-
-dependencies {
-    implementation(libs.androidx.appcompatResources)
-    implementation(project(":lib_resources"))
-    implementation(project(":lib_resources2"))
 }
